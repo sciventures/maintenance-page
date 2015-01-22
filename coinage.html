@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coinage.ph under maintenance</title>
+  <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+  <style type="text/css" media="screen">
+  body {
+    color: #4b5964;
+    background-color: #1e2225;
+  }
+  .frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 411px;
+    margin-left: -400px;
+    margin-top: -235px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    z-index: 1;
+   }
+  .frame-content {
+    position: relative;
+    padding: 40px;
+    border-radius: 4px;
+    background: #1e2225 url('images/coinage-artwork.png') bottom right no-repeat;
+    color: #c6cfd6;
+  }
+  .frame-header {
+    height: 60px;
+  }
+  .frame-message {
+    font-size: 18px;
+  }
+  .frame-message .title,
+  .frame-message p {
+    color: #fff;
+  }
+  .contact {
+    font-size: 13px;
+  }
+  .text-break {
+    display: block;
+  }
+  .logo {
+    display: inline-block;
+    text-indent: -9999px;
+  }
+  .logo-vert {
+    background: url('images/coinage-logo.png');
+    background-size: cover;
+    width: 185px;
+    height: 50px;
+  }
+  .logo-sci {
+    background: url('images/sciph-logo.png');
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    z-index: 2;
+  }
+  .btn-contact {
+    background-color: #00c891;
+    border-color: #00c891;
+  }
+  .btn-contact:hover {
+    background-color: #00d89d;
+    border-color: #00d89d;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      padding: 15px;
+    }
+    .frame {
+      position: static;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+    .frame-content {
+      padding-top: 60px;
+      padding-bottom: 200px;
+    }
+    .text-break {
+      display: inline-block;
+    }
+    .logo-sci {
+      right: 0;
+      width: 40px;
+      height: 40px;
+      border-top-right-radius: 4px;
+    }
+    .logo-vert {
+    background-repeat: no-repeat;
+    width: 170px;
+    background-size: 170px auto;
+    }
+  }
+  @media (max-width: 485px) {
+    .frame-content {
+      background-size: 280px auto;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="frame-content">
+      <div class="frame-header">
+        <div class="logo logo-vert">Coinage.ph</div>
+      </div>
+      <div class="frame-message">
+        <!--<h3 class="title">Maintenance Mode</h3>-->
+        <p>We're currently undergoing a scheduled maintenance.<br/>
+          Sorry for the inconvenience.</p>
+      </div>
+      <br/>
+      <ul class="contact media-list">
+        <li><strong>For more info contact us at:</strong></li>
+        <li>&nbsp;</li>
+        <li><span class="text-break">Room 203 Renaissance Condominium,</span> <span class="text-break">Salcedo St. Legaspi Village, Makati City,</span> Metro Manila Philippines 1223</li>
+        <li>&nbsp;</li>
+        <li>+63 (02) 843 3841 or +63 915 260 0758</li>
+        <li>&nbsp;</li>
+        <li><a class="btn btn-contact btn-primary" href="mailto:info@sci.ph">info@sci.ph</a></li>
+      </ul>
+      <a class="logo logo-sci" href="http://sci.ph" target="_blank">Satoshi Citadel Industries</a>
+    </div>
+  </div>
+</body>
+</html>
